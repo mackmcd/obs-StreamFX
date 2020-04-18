@@ -205,7 +205,7 @@ try {
 	return false;
 }
 
-void dynamic_mask_instance::video_tick(float)
+void dynamic_mask_instance::video_tick(float_t)
 {
 	_have_input_texture  = false;
 	_have_filter_texture = false;
